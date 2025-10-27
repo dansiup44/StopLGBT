@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StopLGBT - Захистимо Традиції України</title>
+    <title>StopLGBT [UA]</title>
     <style>
         * {
             margin: 0;
@@ -41,6 +41,7 @@
             position: relative;
             z-index: 1;
             animation: slideIn 1.5s ease-out;
+            line-height: 1.2; /* Зменшено відступ між рядками */
         }
         @keyframes slideIn {
             from { transform: translateY(-50px); opacity: 0; }
@@ -49,12 +50,12 @@
         .container {
             max-width: 1200px;
             margin: 40px auto;
-            padding: 0 20px;
+            padding: 0 15px;
         }
         .box {
             background: #222222;
-            padding: 30px;
-            margin: 30px 0;
+            padding: 25px;
+            margin: 20px 0;
             border-radius: 15px;
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
             border: 1px solid #0057B7;
@@ -82,14 +83,15 @@
             color: #FFD700;
             font-size: 2em;
             padding-bottom: 10px;
+            line-height: 1.2; 
         }
         .call-to-action {
             text-align: center;
             background: linear-gradient(45deg, #0057B7, #FFD700);
             color: #ffffff;
-            padding: 50px;
+            padding: 40px;
             border-radius: 15px;
-            margin: 50px 0;
+            margin: 40px 0;
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
             animation: glow 2s ease-in-out infinite;
         }
@@ -100,8 +102,9 @@
         }
         .call-to-action h2 {
             color: #ffffff;
-            font-size: 2.5em;
+            font-size: 2.2em;
             text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+            line-height: 1.2; 
         }
         a {
             color: #FFD700;
@@ -118,18 +121,41 @@
             background: #1f1f1f;
             border-top: 2px solid #0057B7;
             font-size: 0.9em;
+            position: relative;
+            width: 100%;
+        }
+        
+        @media (max-width: 1024px) {
+            h1 { font-size: 2.8em; line-height: 1.1; }
+            .box { padding: 20px; }
+            .box h2 { font-size: 1.8em; line-height: 1.1; }
+            .call-to-action { padding: 35px; }
+            .call-to-action h2 { font-size: 2em; line-height: 1.1; }
         }
         @media (max-width: 768px) {
-            h1 { font-size: 2.5em; }
-            .box { padding: 20px; }
+            h1 { font-size: 2.2em; line-height: 1.1; }
+            .box { padding: 15px; margin: 15px 0; }
+            .box h2 { font-size: 1.6em; line-height: 1.1; }
             .call-to-action { padding: 30px; }
+            .call-to-action h2 { font-size: 1.8em; line-height: 1.1; }
+            header { padding: 40px 15px; }
+        }
+        @media (max-width: 480px) {
+            h1 { font-size: 1.8em; line-height: 1.05; }
+            .box { padding: 10px; margin: 10px 0; }
+            .box h2 { font-size: 1.4em; line-height: 1.05; }
+            .call-to-action { padding: 20px; }
+            .call-to-action h2 { font-size: 1.5em; line-height: 1.05; }
+            .container { padding: 0 10px; }
+            header { padding: 30px 10px; }
+            footer { padding: 15px; font-size: 0.8em; }
         }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>StopLGBT: Захистимо Традиції України</h1>
+        <h1>StopLGBT: Захистимо Традиції України 🇺🇦</h1>
     </header>
     <div class="container">
         <div class="box">
@@ -164,8 +190,8 @@
             <p>Виходьте на акції протесту, не дайте вашій країні впасти!</p>
         </div>
     </div>
-    < santo>footer>
-        <p>&copy; 2025 StopLGBT. Всі права захищено.</p>
+    <footer>
+        <p>🄯 dansiup44</p>
     </footer>
 </body>
 </html>
