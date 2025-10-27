@@ -1,2 +1,3 @@
-# StopLGBT
-Wbsite to stop LGBT in Ukraine
+#StopLGBT
+Website to stop LGBT in Ukraine
+Stop LGBT!
