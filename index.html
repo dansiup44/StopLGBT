@@ -3,146 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StopLGBT</title>
+    <title>StopLGBT - Чому ЛГБТ треба заборонити в Україні</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
+            background-color: #121212;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             line-height: 1.6;
         }
         header {
-            background-color: #2c3e50;
-            color: #fff;
-            padding: 60px 20px;
+            background-color: #1f1f1f;
+            padding: 20px;
             text-align: center;
+            border-bottom: 2px solid #ff0000;
         }
-        header h1 {
+        h1 {
             margin: 0;
             font-size: 2.5em;
+            color: #ff0000;
         }
-        section {
+        .container {
             max-width: 1200px;
-            margin: 40px auto;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .box {
+            background-color: #333333;
             padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            border-radius: 8px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            animation: fadeIn 1s forwards;
         }
-        section h2 {
-            color: #e74c3c;
-            border-bottom: 2px solid #e74c3c;
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .box:nth-child(1) { animation-delay: 0.2s; }
+        .box:nth-child(2) { animation-delay: 0.4s; }
+        .box:nth-child(3) { animation-delay: 0.6s; }
+        .box:nth-child(4) { animation-delay: 0.8s; }
+        .box:nth-child(5) { animation-delay: 1s; }
+        .box h2 {
+            color: #ff0000;
+            border-bottom: 1px solid #ff0000;
             padding-bottom: 10px;
-            margin-bottom: 20px;
-        }
-        ul {
-            list-style-type: disc;
-            padding-left: 20px;
         }
         .call-to-action {
-            background-color: #e74c3c;
-            color: #fff;
             text-align: center;
-            padding: 40px;
-            margin: 40px auto;
-            max-width: 1200px;
-            border-radius: 8px;
+            background-color: #ff0000;
+            color: #121212;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 40px 0;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
         }
         .call-to-action h2 {
-            color: #fff;
-            border-bottom: none;
+            color: #121212;
         }
-        .call-to-action button {
-            background-color: #fff;
-            color: #e74c3c;
-            border: none;
-            padding: 15px 30px;
-            font-size: 1.2em;
-            cursor: pointer;
-            border-radius: 5px;
-            margin-top: 20px;
+        a {
+            color: #ff0000;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
         footer {
-            background-color: #2c3e50;
-            color: #fff;
             text-align: center;
-            padding: 20px;
-            margin-top: 40px;
-        }
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 2em;
-            }
-            section {
-                padding: 15px;
-            }
+            padding: 10px;
+            background-color: #1f1f1f;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>StopLGBT: Захист традиційних цінностей України</h1>
-        <p>Об'єднуємось заради моралі, духовності та релігійних принципів!</p>
+        <h1>StopLGBT: Захистимо Україну від ЛГБТ-ідеології</h1>
     </header>
-
-    <section id="introduction">
-        <h2>Вступ</h2>
-        <p>Україна - країна з глибокими традиціями, де сімейні цінності, мораль та духовність є основою суспільства. ЛГБТ-рух суперечить цим принципам і загрожує нашому способу життя. StopLGBT закликає до захисту традиційних цінностей!</p>
-    </section>
-
-    <section id="moral">
-        <h2>Моральні принципи</h2>
-        <p>Моральні норми суспільства формувалися століттями навколо традиційної сім'ї та природних відносин.</p>
-        <ul>
-            <li>ЛГБТ-ідеологія руйнує традиційну сім'ю, яка є основою суспільства.</li>
-            <li>Вона пропагує поведінку, яка суперечить етичним нормам більшості українців.</li>
-            <li>Діти, виховані в такому середовищі, можуть втратити орієнтири в житті.</li>
-            <li>Моральний занепад веде до зростання злочинності та соціальних проблем.</li>
-        </ul>
-    </section>
-
-    <section id="physical">
-        <h2>Фізичні принципи</h2>
-        <p>З медичної точки зору, ЛГБТ-стиль життя несе ризики для здоров'я.</p>
-        <ul>
-            <li>Підвищений ризик поширення інфекційних захворювань, таких як ВІЛ/СНІД.</li>
-            <li>Фізіологічні проблеми, пов'язані з неприродними практиками.</li>
-            <li>Психічні розлади, пов'язані з ідентичністю, що не відповідає біологічній реальності.</li>
-            <li>Вплив на демографію: зниження народжуваності через відсутність традиційних сімей.</li>
-        </ul>
-    </section>
-
-    <section id="spiritual">
-        <h2>Духовні принципи</h2>
-        <p>Духовність українців корениться в християнських і слов'янських традиціях.</p>
-        <ul>
-            <li>ЛГБТ суперечить духовній гармонії людини з природою та Богом.</li>
-            <li>Воно руйнує внутрішній світ і веде до духовного спустошення.</li>
-            <li>Традиційні духовні практики підкреслюють єдність чоловіка та жінки.</li>
-            <li>Пропаганда ЛГБТ віддаляє людей від справжньої духовності.</li>
-        </ul>
-    </section>
-
-    <section id="religious">
-        <h2>Релігійні принципи</h2>
-        <p>Більшість релігій в Україні, включаючи християнство, засуджують ЛГБТ.</p>
-        <ul>
-            <li>Біблія чітко вказує на гріховність гомосексуальних відносин (Левит 18:22).</li>
-            <li>Православна церква вважає це відхиленням від Божого плану.</li>
-            <li>Релігійні лідери закликають до збереження святості шлюбу.</li>
-            <li>Заборона ЛГБТ - це захист релігійної свободи та традицій.</li>
-        </ul>
-    </section>
-
-    <div class="call-to-action">
-        <h2>Заклик до дій: Виходьте на мітинги!</h2>
-        <p>Не мовчіть! Приєднуйтесь до StopLGBT у боротьбі за Україну без ЛГБТ. Ми організовуємо мітинги в Києві, Львові та інших містах. Разом ми захистимо нашу націю!</p>
-        <p>Наступний мітинг: 15 листопада 2025 року, Майдан Незалежності, Київ. Початок о 12:00.</p>
-        <button onclick="alert('Дякуємо за підтримку! Слідкуйте за оновленнями.')">Приєднатись</button>
+    <div class="container">
+        <div class="box">
+            <h2>Вступ</h2>
+            <p>Україна - країна з глибокими традиціями, де сімейні цінності, мораль та духовність завжди були на першому місці. Сьогодні ми стикаємося з загрозою від ЛГБТ-ідеології, яка намагається підірвати наші основи. На цьому сайті ми розглянемо моральні, фізичні, духовні та релігійні принципи, чому ЛГБТ треба заборонити в Україні. Приєднуйтеся до руху StopLGBT!</p>
+        </div>
+        <div class="box">
+            <h2>Моральні принципи</h2>
+            <p>ЛГБТ-ідеологія руйнує традиційну сім'ю, яка є основою суспільства. Вона пропагує відносини, які суперечать природним нормам, що призводить до моральної деградації молоді. Згідно з церквами України, такі ініціативи загрожують моральному здоров'ю дітей та їх праву на виховання в традиційній сім'ї. <a href="https://cne.news/article/2831-ukrainian-churches-oppose-same-sex-partnership-bill">[Джерело]</a></p>
+            <p>Традиційні цінності, такі як шлюб між чоловіком та жінкою, захищають суспільство від хаосу. Опозиція від православних церков в Україні підкреслює фундаментальний опір ЛГБТ-рівності як загрозі національній ідентичності. <a href="https://www.tandfonline.com/doi/full/10.1080/10758216.2022.2085581">[Джерело]</a></p>
+        </div>
+        <div class="box">
+            <h2>Фізичні принципи</h2>
+            <p>З медичної точки зору, ЛГБТ-стиль життя пов'язаний з вищими ризиками для здоров'я, включаючи психічні розлади та фізичні захворювання. Конверсійна терапія в Україні намагається виправити це, але стикається з опором. Дослідження показують, що дискримінація призводить до насильства, але ми вважаємо, що заборона зменшить поширення шкідливих практик. <a href="https://zaborona.com/en/turning-gay-into-normal-zaborona-investigates-conversion-therapy-in-ukraine/">[Джерело]</a></p>
+            <p>Церкви стверджують, що законопроекти про одностатеві партнерства загрожують фізичному здоров'ю дітей через відсутність традиційного виховання. <a href="https://cne.news/article/2831-ukrainian-churches-oppose-same-sex-partnership-bill">[Джерело]</a></p>
+        </div>
+        <div class="box">
+            <h2>Духовні принципи</h2>
+            <p>Духовно, ЛГБТ суперечить біблійним вченням про створення людини як чоловіка та жінку. В Україні, де православ'я домінує, церкви бачать це як атаку на духовну чистоту нації. Релігійна ворожість базується на традиціях, які захищають суспільство від моральної корупції. <a href="https://ukraineworld.org/en/articles/infowatch/ukraine-lgbt-rights">[Джерело]</a></p>
+            <p>Анти-гендерна політика в Україні та Грузії пов'язана з націоналізмом та релігією, де ЛГБТ розглядається як загроза духовній єдності. <a href="https://www.tandfonline.com/doi/full/10.1080/10758216.2022.2085581">[Джерело]</a></p>
+        </div>
+        <div class="box">
+            <h2>Релігійні принципи</h2>
+            <p>Релігійні лідери в Україні одностайно виступають проти ЛГБТ, посилаючись на Святе Письмо. Православні церкви вважають це гріхом, який не можна легалізувати. Опозиція до законопроектів про цивільні партнерства базується на релігійних принципах, які захищають "традиційну сім'ю". <a href="https://www.opendemocracy.net/en/odr/a-landmark-court-case-on-traditional-values-in-ukraine-ends-strangely-in-victory-for-both-sides/">[Джерело]</a></p>
+            <p>Україна як секулярна держава все ж впливає релігійними поглядами, де ЛГБТ вважається несумісним з християнськими цінностями. <a href="https://gay.org.ua/en/blog/2023/07/08/situation-of-lgbtq-in-ukraine-january-june-2023/">[Джерело]</a></p>
+        </div>
+        <div class="call-to-action">
+            <h2>Заклик до дій: Вийдіть на мітинги StopLGBT!</h2>
+            <p>Не мовчіть! Приєднуйтеся до мирних мітингів проти ЛГБТ-ідеології в Україні. Разом ми захистимо наші цінності! Слідкуйте за анонсами в соціальних мережах. #StopLGBT #ЗахистимоУкраїну</p>
+            <p>Приклади минулих акцій: Націоналісти в Києві зірвали гей-парад у 2015 році. <a href="https://x.com/MamaImaPlumber/status/607242980836155392">[Джерело]</a></p>
+        </div>
     </div>
-
     <footer>
         <p>&copy; 2025 StopLGBT. Всі права захищено.</p>
     </footer>
